@@ -40,7 +40,7 @@ export const hosts: Host[] = [
     name: 'Marco Schneekluth',
     title: 'Blockchain-Entwickler & Berater',
     bio: 'Marco vereint technisches Tiefenwissen mit unternehmerischer Perspektive. Als Blockchain-Entwickler und Berater kennt er die Technologie hinter den großen Projekten aus erster Hand. Im Podcast sorgt er dafür, dass komplexe Konzepte verständlich erklärt werden – ohne dabei an Substanz zu verlieren.',
-    image: '/images/hosts/marco.jpeg',
+    image: '/images/hosts/marco-schneekluth.jpg',
     socials: {
       twitter: 'https://twitter.com/',
       linkedin: 'https://linkedin.com/',

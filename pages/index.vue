@@ -138,9 +138,17 @@
             class="group bg-base-100 rounded-2xl border border-base-300/60 hover:border-primary/30 p-7 text-center card-hover block"
           >
             <div
-              class="w-20 h-20 mx-auto mb-5 rounded-full bg-base-300 border-2 border-base-300/60 group-hover:border-primary/30 overflow-hidden transition-colors flex items-center justify-center"
+              class="w-20 h-20 mx-auto mb-5 rounded-full group-hover:border-primary/30 overflow-hidden transition-colors"
             >
-              <Icon name="lucide:user" class="w-8 h-8 text-base-content/20" />
+              <NuxtImg
+                :src="host.image"
+                :alt="host.name"
+                class="w-full h-full object-cover"
+                width="200"
+                height="200"
+                format="webp"
+                quality="80"
+              />
             </div>
             <h3
               class="font-bold text-base text-base-content group-hover:text-primary transition-colors"
