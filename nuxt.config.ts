@@ -26,11 +26,7 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    formats: ['webp', 'avif'],
-  },
-
-  nitro: {
-    preset: 'netlify-static',
+    format: ['webp', 'avif'],
   },
 
   app: {
