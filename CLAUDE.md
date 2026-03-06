@@ -2,7 +2,7 @@
 
 ## Project
 Nuxt 3 podcast website for the German-language crypto podcast "Big Bitcoin Business".
-Deployment: Netlify SSG (`nuxt generate` / `npm run generate`).
+Deployment: Netlify SSG (`nuxt build` / `npm run build` with `netlify-static` preset).
 
 ## Tech Stack
 - Nuxt 3 + Vue 3 (Composition API)
@@ -27,7 +27,7 @@ Deployment: Netlify SSG (`nuxt generate` / `npm run generate`).
 
 ## Dev
 - Dev server runs on port 3001 (`npm run dev`)
-- Build: `npm run generate`
+- Build: `npm run build` (Netlify SSG)
 
 ## Conventions
 - Use Composition API (`<script setup lang="ts">`)
