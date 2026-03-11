@@ -41,10 +41,10 @@
             <Icon name="lucide:mic" class="w-5 h-5" />
             Als Gast bewerben
           </NuxtLink>
-          <NuxtLink to="/fuer-sponsoren" class="btn btn-outline btn-lg font-heading tracking-brand text-sm gap-2 border-primary/40 hover:btn-primary">
+          <a href="mailto:podcast@bigbitcoinbusiness.de?subject=Sponsoring%20Anfragen" class="btn btn-outline btn-lg font-heading tracking-brand text-sm gap-2 border-primary/40 hover:btn-primary">
             <Icon name="lucide:handshake" class="w-5 h-5" />
             Sponsoring anfragen
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </section>

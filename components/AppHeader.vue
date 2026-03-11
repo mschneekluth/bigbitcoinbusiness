@@ -101,13 +101,13 @@
 
           <div class="my-3 h-px bg-base-300/60" />
 
-          <NuxtLink
-            to="/fuer-sponsoren"
+          <a
+            href="mailto:podcast@bigbitcoinbusiness.de?subject=Sponsoring%20Anfragen"
             class="flex items-center justify-center px-4 py-3 rounded-xl bg-primary text-primary-content text-sm font-semibold hover:bg-primary/90 transition-colors"
             @click="mobileMenuOpen = false"
           >
             Sponsoring anfragen
-          </NuxtLink>
+          </a>
         </nav>
       </div>
     </Transition>

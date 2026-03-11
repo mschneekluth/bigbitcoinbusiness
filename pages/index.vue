@@ -255,13 +255,13 @@
                 im deutschsprachigen Krypto-Raum.
               </p>
             </div>
-            <NuxtLink
-              to="/fuer-sponsoren"
+            <a
+              href="mailto:podcast@bigbitcoinbusiness.de?subject=Sponsoring%20Anfragen"
               class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl bg-primary text-primary-content font-semibold text-sm shrink-0 hover:bg-primary/90 transition-all hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-0.5"
             >
               Jetzt anfragen
               <Icon name="lucide:arrow-right" class="w-4 h-4" />
-            </NuxtLink>
+            </a>
           </div>
         </div>
       </div>

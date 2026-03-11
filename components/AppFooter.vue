@@ -51,10 +51,10 @@
           <p class="text-xs font-semibold tracking-[0.15em] uppercase text-base-content/30 mb-5">Kontakt</p>
           <ul class="space-y-3">
             <li>
-              <NuxtLink to="/fuer-sponsoren" class="text-sm text-base-content/55 hover:text-primary transition-colors flex items-center gap-2">
+              <a href="mailto:podcast@bigbitcoinbusiness.de?subject=Sponsoring%20Anfragen" class="text-sm text-base-content/55 hover:text-primary transition-colors flex items-center gap-2">
                 <Icon name="lucide:handshake" class="w-3.5 h-3.5 text-primary/60 shrink-0" />
                 Sponsoring anfragen
-              </NuxtLink>
+              </a>
             </li>
             <li>
               <NuxtLink to="/fuer-gaeste" class="text-sm text-base-content/55 hover:text-primary transition-colors flex items-center gap-2">

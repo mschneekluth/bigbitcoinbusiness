@@ -144,21 +144,6 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-primary/10 border border-primary/20 p-6">
-              <div class="flex items-start gap-3">
-                <Icon
-                  name="lucide:quote"
-                  class="w-8 h-8 text-primary/40 shrink-0 mt-1"
-                />
-                <p
-                  class="text-base-content/70 font-body italic text-sm leading-relaxed"
-                >
-                  "Big Bitcoin Business ist der einzige Krypto-Podcast, den ich
-                  nie überspringen würde – weil ich weiß, dass am Ende immer
-                  etwas hängen bleibt, das mich wirklich weiterbringt."
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -334,10 +319,10 @@ const audienceItems = [
 ];
 
 const audienceStats = [
-  { label: "Altersgruppe", value: "25 – 45 Jahre" },
-  { label: "Geschlecht", value: "ca. 75 % männlich" },
+  { label: "Altersgruppe", value: "ca. 25 – 60 Jahre" },
+  { label: "Geschlecht", value: "Überwiegend männlich" },
   { label: "Ausbildung", value: "Überwiegend Hochschulabschluss" },
-  { label: "Krypto-Erfahrung", value: "3+ Jahre" },
+  { label: "Krypto-Erfahrung", value: "Unterschiedlich" },
   { label: "Sprache", value: "Deutsch (DACH)" },
 ];
 </script>

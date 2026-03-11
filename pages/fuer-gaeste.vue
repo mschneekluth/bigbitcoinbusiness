@@ -261,7 +261,7 @@ const steps = [
     icon: "lucide:mic",
     title: "Aufnahme",
     description:
-      "Die Aufzeichnung findet remote via Video-Call statt. Ca. 60–90 Minuten. Keine Vorbereitung nötig – sei einfach du selbst.",
+      "Die Aufzeichnung findet remote via Video-Call statt. Ca. 45-90 Minuten. Keine Vorbereitung nötig – sei einfach du selbst.",
   },
   {
     icon: "lucide:upload-cloud",
@@ -283,7 +283,10 @@ const guestTypes = [
 const practicalInfo = [
   { label: "Format", value: "Remote (Video-Call)" },
   { label: "Dauer", value: "45 – 90 Minuten" },
-  { label: "Technische Anforderungen", value: "Kopfhörer + ruhige Umgebung" },
+  {
+    label: "Technische Anforderungen",
+    value: "(Gutes) Mikrofon, stabile Internetverbindung, ruhige Umgebung",
+  },
   { label: "Sprache", value: "Deutsch" },
   { label: "Vorbereitung", value: "Keine spezifische nötig" },
   { label: "Honorar", value: "Kostenlos (gegenseitiger Benefit)" },
