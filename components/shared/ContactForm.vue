@@ -9,11 +9,10 @@
         @submit.prevent="handleSubmit"
         class="space-y-5"
       >
-        <input type="hidden" :name="formName" :value="formName" />
         <input type="hidden" name="form-name" :value="formName" />
-        <!-- Honeypot -->
-        <div class="hidden">
-          <label>Bitte nicht ausfüllen: <input name="bot-field" /></label>
+        <!-- Honeypot: hidden from real users, bots will fill it in -->
+        <div aria-hidden="true" style="position: absolute; left: -9999px;">
+          <label>Nicht ausfüllen: <input v-model="botField" name="bot-field" tabindex="-1" autocomplete="off" /></label>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -133,6 +132,7 @@ const form = reactive({
   message: '',
 })
 
+const botField = ref('')
 const submitting = ref(false)
 const submitted = ref(false)
 
@@ -144,6 +144,7 @@ const handleSubmit = async () => {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({
         'form-name': props.formName,
+        'bot-field': botField.value,
         ...form,
       }).toString(),
     })
