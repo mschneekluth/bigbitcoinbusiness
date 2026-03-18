@@ -13,18 +13,42 @@
         <div class="max-w-2xl space-y-8 font-body text-base-content/70 text-sm leading-relaxed">
           <div>
             <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Angaben gemäß § 5 TMG</h2>
-            <p>Big Bitcoin Business Podcast<br />
-            [Straße und Hausnummer]<br />
-            [PLZ Ort]<br />
+            <p>Aritri Media UG (haftungsbeschränkt)<br />
+            Raiffeisenstr. 3a<br />
+            40764 Langenfeld<br />
             Deutschland</p>
           </div>
           <div>
             <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Vertreten durch</h2>
-            <p>Alexander Mayer, Marco Schneekluth, Robert Steinadler</p>
+            <p>Robert Steinadler</p>
           </div>
           <div>
             <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Kontakt</h2>
-            <p>E-Mail: podcast@bigbitcoinbusiness.de</p>
+            <p>Telefon: 02173/9377004<br />
+            E-Mail: info@aritri.media</p>
+          </div>
+          <div>
+            <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Registereintrag</h2>
+            <p>Eintragung im Handelsregister.<br />
+            Registergericht: Amtsgericht Düsseldorf<br />
+            Registernummer: HRB 96415</p>
+          </div>
+          <div>
+            <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Umsatzsteuer-ID</h2>
+            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+            DE351334806</p>
+          </div>
+          <div>
+            <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Redaktionell verantwortlich</h2>
+            <p>Robert Steinadler<br />
+            c/o Aritri Media UG<br />
+            Raiffeisenstr. 3a<br />
+            40764 Langenfeld</p>
+          </div>
+          <div>
+            <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Streitschlichtung</h2>
+            <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">https://ec.europa.eu/consumers/odr/</a>.<br />
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
           </div>
           <div>
             <h2 class="font-heading text-lg tracking-brand text-base-content mb-3">Haftung für Inhalte</h2>

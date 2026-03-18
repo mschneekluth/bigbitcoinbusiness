@@ -48,7 +48,7 @@
             Auf YouTube ansehen
           </a>
           <a
-            href="https://open.spotify.com/show/1Q2w3e4r5t6y7u8i9o0p"
+            href="https://open.spotify.com/show/4lzuRd3U1O9PocBzTOEIu1"
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-xl border border-base-content/15 text-base-content/70 font-semibold text-sm hover:border-primary/50 hover:text-primary transition-all duration-200"
