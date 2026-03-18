@@ -97,6 +97,83 @@
       </div>
     </section>
 
+    <!-- Guest Interview Examples -->
+    <section class="section-py bg-base-100">
+      <div class="section-container">
+        <SharedSectionHeading
+          eyebrow="Bisherige Gäste"
+          title="So klingt ein Interview"
+          subtitle="Überzeugen Sie sich selbst – hier sind einige unserer Gastgespräche."
+          align="center"
+        />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div
+            v-for="interview in guestInterviews"
+            :key="interview.youtubeId"
+            class="card bg-base-200 border border-base-300 hover:border-primary/30 overflow-hidden transition-colors"
+          >
+            <!-- Thumbnail / Embed -->
+            <div
+              class="relative aspect-video bg-base-300 overflow-hidden cursor-pointer"
+              @click="interview.playing = !interview.playing"
+            >
+              <iframe
+                v-if="interview.playing"
+                :src="`https://www.youtube.com/embed/${interview.youtubeId}?autoplay=1`"
+                class="absolute inset-0 w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+              <template v-else>
+                <img
+                  :src="`https://img.youtube.com/vi/${interview.youtubeId}/maxresdefault.jpg`"
+                  :alt="interview.title"
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/30 transition-colors"
+                >
+                  <div
+                    class="w-14 h-14 bg-primary rounded-full flex items-center justify-center shadow-lg shadow-primary/30 hover:scale-105 transition-transform"
+                  >
+                    <Icon
+                      name="lucide:play"
+                      class="w-6 h-6 text-primary-content ml-0.5"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-0.5 rounded font-body"
+                >
+                  <Icon
+                    name="lucide:youtube"
+                    class="w-3 h-3 inline mr-1 text-red-500"
+                  />
+                  YouTube
+                </div>
+              </template>
+            </div>
+            <!-- Card content -->
+            <div class="p-4 space-y-1">
+              <p
+                v-if="interview.guest"
+                class="text-sm text-primary font-heading"
+              >
+                {{ interview.guest }}
+              </p>
+              <h3
+                class="font-heading text-sm tracking-brand text-base-content line-clamp-2"
+              >
+                {{ interview.title }}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- What We Look For -->
     <section class="section-py bg-base-100">
       <div class="section-container">
@@ -279,6 +356,15 @@ const guestTypes = [
   "Investoren und VCs mit Krypto-Fokus",
   "Journalisten und Analysten der Branche",
 ];
+
+const guestInterviews = reactive([
+  {
+    youtubeId: "8D9jd8qM8_8",
+    title: "Interview mit der Kryptobetrugshilfe",
+    guest: "Timo Züfle und Dr. Marc Maisch",
+    playing: false,
+  },
+]);
 
 const practicalInfo = [
   { label: "Format", value: "Remote (Video-Call)" },
