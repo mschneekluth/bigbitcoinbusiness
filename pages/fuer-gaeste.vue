@@ -364,6 +364,12 @@ const guestInterviews = reactive([
     guest: "Timo Züfle und Dr. Marc Maisch",
     playing: false,
   },
+  {
+    youtubeId: "0JuD1oqLaqs",
+    title: "Bitcoin & Banken: Interview mit der Volksbank Mittlerer Schwarzwald",
+    guest: "Sebastian Steiner",
+    playing: false,
+  },
 ]);
 
 const practicalInfo = [
